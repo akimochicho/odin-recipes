@@ -1,0 +1,67 @@
+*{
+    font-family: SourceSansPro,Helvetica,sans-serif; 
+}
+.ul {
+    /* Default bullets style erased */
+    list-style: none;
+}
+
+.ul:before {
+
+    /* Unicode for a bullet */
+    content: "\2022";
+     
+    /* Styles for Indentation*/
+    color: orange;
+     
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.ul {
+    color: black;
+    padding: 10px;
+}
+.content {
+   
+
+}
+.description, .ingredients, .directions, .buttons {
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 30%;
+}
+.description {
+    /*border-color: rgb(255, 142, 101);*/
+
+    
+}
+.buttons {
+    background-color: rgba(245,246,234,255);
+    width: fit-content;
+    
+}
+
+.save, .rate, .print, .share {
+    border-width: 0cap;
+    font-weight: bold;
+    
+}
+.hov:hover{
+    background-color:rgb(236, 143, 90);
+    
+}
+.ingredients {
+    border-color:rgb(236, 143, 90);
+    border-style: solid;
+    border-top-width: 20px;
+    padding-top: 0px;
+ 
+    
+}
+.directions {
+    
+}
